@@ -11,5 +11,11 @@
 
 1. cd app1
 2. chmod +x create-prisma-layer.sh
-3. sls invoke local -f functionone
-4. Look at error
+3. ./create-prisma-layer.sh
+4. sls invoke local -f functionone
+
+Observe Error
+
+```
+/✖ Error: ENOENT: no such file or directory, open .../prisma-example-typescript/app1/.esbuild/.build/schema.prisma'
+```
