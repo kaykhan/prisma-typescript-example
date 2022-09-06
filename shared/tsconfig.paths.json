@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@config": [
+                "src/config.ts"
+            ],
+            "@services/*": [
+                "src/services/*"
+            ],
+            "@models/*": [
+                "src/models/*"
+            ],
+            "@modules/*": [
+                "src/modules/*"
+            ],
+            "@src/*": [
+                "src/*"
+            ],
+            "@tests/*": [
+                "tests/*"
+            ]
+        }
+    }
+}
