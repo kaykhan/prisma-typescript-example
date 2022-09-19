@@ -4,7 +4,27 @@
         "paths": {
             "@shared/*": [
                 "../shared/src/*"
+            ],
+            "@config": [
+                "../shared/src/config.ts"
+            ],
+            "@services/*": [
+                "../shared/src/services/*"
+            ],
+            "@models/*": [
+                "../shared/src/models/*"
+            ],
+            "@modules/*": [
+                "../shared/src/modules/*"
+            ],
+            "@src/*": [
+                "../shared/src/*"
+            ],
+            "@tests/*": [
+                "../shared/tests/*"
             ]
+
+
         }
     }
 }

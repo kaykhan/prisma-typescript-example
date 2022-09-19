@@ -1,6 +1,6 @@
 import { FindUsers } from "./../shared/src/models/users/user.repo";
 
-export const FunctionOne = async (event: any, _context) => {
+export const FunctionOne = async (_event: any, _context) => {
   try {
     const [response, error] = await FindUsers();
 
@@ -23,7 +23,7 @@ export const FunctionOne = async (event: any, _context) => {
   }
 };
 
-export const FunctionTwo = async (event: any, _context) => {
+export const FunctionTwo = async (_event: any, _context) => {
   try {
     const [response, error] = await FindUsers();
 
